@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: antiquewhite;
+}
+
+#hdti {
+    height: 7vh;
+    width: 98vw;
+    /* background-color: aquamarine; */
+    position: absolute;
+    top: 0vh;
+    left: 0vw;
+    text-align: center;
+    font-size: 7vh;
+    vertical-align: middle;
+}
+
+#word {
+    height: 8vh;
+    width: 30vw;
+    background-color: aliceblue;
+    position: absolute;
+    top: 20vh;
+    left: 35vw;
+    font-size: 4vh;
+    text-transform: uppercase;
+    -webkit-appearance: none;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 10vh;
+    text-indent: 2vh;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+#f1 {
+    height: 50vh;
+    width: 40vw;
+    /* background-color: brown; */
+    position: absolute;
+    top: 35vh;
+    left: 30vw;
+    display: grid;
+    grid-template-columns: 20vw 20vw;
+    grid-template-rows: 10vh 10vh;
+}
+
+.formele {
+    height: 6vh;
+    width: 18vw;
+    font-size: 3vh;
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    outline: none;
+    border-radius: 10vh;
+    text-indent: 2vh;
+    background-color: aliceblue;
+    border: 1px solid #000;
+    margin-left: 2vh;
+}
+
+#butt{
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    outline: none;
+    height: 6vh;
+    width: 18vw;
+    font-size: 3vh;
+    border-radius: 10vh;
+    position: absolute;
+    top: 65vh;
+    left: 41vw;
+    background-color: aliceblue;
+    border: 1px solid #000;
+}
+#butt:hover{
+    background-color: #dde5ec;
+}
+
+#output {
+    background-color: azure;
+    min-height: 10vh;
+    height: 100% auto;
+    width: 40vw;
+    position: absolute;
+    top: 79vh;
+    left: 30vw;
+    color: aliceblue;
+}
+
+span{
+    height: 4vh;
+    width: 40vw;
+    position: absolute;
+    top: 75vh;
+    left: 30vw;
+    background-color: floralwhite;
+    font-size: 3vh;
+    color: #000;
+    text-indent: 2vh;
+    user-select: none;
+}
+.grp_word{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.word_out{
+    padding: 1vh;
+    background-color: burlywood;
+    position: relative;
+    margin: 1vh;
+    border-radius: 1vh;
+    color: #000;
+}
+#space{
+    height: 5vh;
+    width: 100%;
+    position: relative;
+    left: 0vw;
+}
+#foot{
+    height: 4vh;
+    width: 100%;
+    background-color: burlywood;
+    text-align: center;
+    font-size: 3vh;
+    margin-top: 4vh;
+    position: fixed;
+    bottom: 0vh;
+    left: 0vw;
+}
