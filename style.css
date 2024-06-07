@@ -10,10 +10,9 @@ body {
 #hdti {
     height: 7vh;
     width: 98vw;
-    /* background-color: aquamarine; */
     position: absolute;
-    top: 0vh;
-    left: 0vw;
+    top: 0;
+    left: 0;
     text-align: center;
     font-size: 7vh;
     vertical-align: middle;
@@ -28,7 +27,6 @@ body {
     left: 35vw;
     font-size: 4vh;
     text-transform: uppercase;
-    -webkit-appearance: none;
     border: none;
     outline: none;
     box-sizing: border-box;
@@ -41,7 +39,6 @@ body {
 #f1 {
     height: 50vh;
     width: 40vw;
-    /* background-color: brown; */
     position: absolute;
     top: 35vh;
     left: 30vw;
@@ -54,8 +51,6 @@ body {
     height: 6vh;
     width: 18vw;
     font-size: 3vh;
-    -webkit-appearance: none;
-    appearance: none;
     border: none;
     outline: none;
     border-radius: 10vh;
@@ -65,11 +60,7 @@ body {
     margin-left: 2vh;
 }
 
-#butt{
-    -webkit-appearance: none;
-    appearance: none;
-    border: none;
-    outline: none;
+#butt {
     height: 6vh;
     width: 18vw;
     font-size: 3vh;
@@ -79,8 +70,11 @@ body {
     left: 41vw;
     background-color: aliceblue;
     border: 1px solid #000;
+    border: none;
+    outline: none;
 }
-#butt:hover{
+
+#butt:hover {
     background-color: #dde5ec;
 }
 
@@ -92,10 +86,9 @@ body {
     position: absolute;
     top: 79vh;
     left: 30vw;
-    color: aliceblue;
 }
 
-span{
+span {
     height: 4vh;
     width: 40vw;
     position: absolute;
@@ -107,34 +100,33 @@ span{
     text-indent: 2vh;
     user-select: none;
 }
-.grp_word{
+
+.grp_word {
     display: flex;
     flex-wrap: wrap;
     position: relative;
 }
 
-.word_out{
+.word_out {
     padding: 1vh;
     background-color: burlywood;
-    position: relative;
     margin: 1vh;
     border-radius: 1vh;
     color: #000;
 }
-#space{
+
+#space {
     height: 5vh;
     width: 100%;
-    position: relative;
-    left: 0vw;
 }
-#foot{
+
+#foot {
     height: 4vh;
     width: 100%;
     background-color: burlywood;
     text-align: center;
     font-size: 3vh;
-    margin-top: 4vh;
     position: fixed;
-    bottom: 0vh;
-    left: 0vw;
+    bottom: 0;
+    left: 0;
 }
