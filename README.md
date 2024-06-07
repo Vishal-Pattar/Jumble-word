@@ -13,6 +13,11 @@ The Jumble Word Solver is a web application that allows users to input a set of 
   - Contained characters
 - Simple and intuitive user interface.
 
+## Screenshot
+
+![Jumble Word Solver Screenshot](https://github.com/Vishal-Pattar/Jumble-word/assets/104265753/02e69421-5dd3-433c-a88e-895c77d1c133)
+
+
 ## Live Demo
 
 Check out the live demo [here](https://vishal-pattar.github.io/Jumble-word/).
