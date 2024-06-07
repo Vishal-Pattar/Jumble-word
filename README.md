@@ -15,8 +15,7 @@ The Jumble Word Solver is a web application that allows users to input a set of 
 
 ## Screenshot
 
-![Jumble Word Solver Screenshot](https://github.com/Vishal-Pattar/Jumble-word/assets/104265753/02e69421-5dd3-433c-a88e-895c77d1c133)
-
+<img src="https://github.com/Vishal-Pattar/Jumble-word/assets/104265753/02e69421-5dd3-433c-a88e-895c77d1c133" alt='Jumble Word Solver Screenshot' height='450px' width='600px'/>
 
 ## Live Demo
 
