@@ -2,35 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jumble Word | Ultimate</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="logo_icon.png" type="image/png">
 </head>
 <body>
-    <h1 id="hdti">Jumble Word Solver</h1>
-    <input type="text" name="word" id="word" placeholder="YOUR LETTERS" maxlength="15"
-        onkeypress="return ((event.charCode >= 65 && event.charCode <= 90) || (event.charCode >= 97 && event.charCode <= 122) || (event.charCode == 32))"/>
-    <br><br>
-    <form name="f1" id="f1" method="post">
-        <input type="text" name="word_start" id="word_start" class="formele" placeholder="Starts"/>
-        <input type="text" name="word_end" id="word_end" class="formele" placeholder="Ends"/>
-        <input type="text" name="word_mlen" id="word_mlen" class="formele" placeholder="Min Length"/>
-        <input type="text" name="word_len" id="word_len" class="formele" placeholder="Length"/>
-        <input type="text" name="word_cont" id="word_cont" class="formele" placeholder="Contains"/>
-        <select name="word_dict" id="word_dict" class="formele">
-            <option id="dict_opt1">UK English</option>
-            <option id="dict_opt1">US English</option>
-        </select>
-    </form>
-    <button type="button" id="butt" name="butt" class="butcl" onclick="show()">Search Here</button>
-    <span>All Possible Outcomes</span>
-    <div id="output">
-        <div id="two-letter" class="grp_word"></div>
-        <div id="space"></div>
+    <div class="container">
+        <h1 id="hdti">Jumble Word Solver</h1>
+        <input type="text" name="word" id="word" placeholder="YOUR LETTERS" maxlength="15"
+            oninput="convertToUppercaseAndValidate()"/>
+        <br><br>
+        <form name="f1" id="f1" method="post">
+            <input type="text" name="word_start" id="word_start" class="formele" placeholder="Starts"/>
+            <input type="text" name="word_end" id="word_end" class="formele" placeholder="Ends"/>
+            <input type="text" name="word_mlen" id="word_mlen" class="formele" placeholder="Min Length"/>
+            <input type="text" name="word_len" id="word_len" class="formele" placeholder="Length"/>
+            <input type="text" name="word_cont" id="word_cont" class="formele" placeholder="Contains"/>
+            <select name="word_dict" id="word_dict" class="formele">
+                <option id="dict_opt1">UK English</option>
+                <option id="dict_opt1">US English</option>
+            </select>
+        </form>
+        <button type="button" id="butt" name="butt" class="butcl" onclick="show()">Search Here</button>
+        <span>All Possible Outcomes</span>
+        <div id="output">
+            <div id="two-letter" class="grp_word"></div>
+            <div id="space"></div>
+        </div>
+        <footer id="foot">Design & Developed by Vishal Pattar</footer>
     </div>
-    <footer id="foot">Design & Developed by Vishal Pattar</footer>
+    <script src="script.js" defer></script>
     <script src="dictionary.js" defer></script>
     <script src="permutation.js" defer></script>
 </body>

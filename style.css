@@ -4,129 +4,131 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: antiquewhite;
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+    overflow: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
 }
 
 #hdti {
-    height: 7vh;
-    width: 98vw;
-    position: absolute;
-    top: 0;
-    left: 0;
-    text-align: center;
-    font-size: 7vh;
-    vertical-align: middle;
+    font-size: 3em;
+    margin-bottom: 20px;
 }
 
 #word {
-    height: 8vh;
-    width: 30vw;
-    background-color: aliceblue;
-    position: absolute;
-    top: 20vh;
-    left: 35vw;
-    font-size: 4vh;
-    text-transform: uppercase;
+    height: 50px;
+    width: 600px;
+    background-color: #fff;
+    color: #000;
+    font-size: 1.5em;
     border: none;
     outline: none;
-    box-sizing: border-box;
-    border-radius: 10vh;
-    text-indent: 2vh;
-    text-align: center;
-    border: 1px solid #000;
+    border-radius: 50px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-indent: 10px;
 }
 
 #f1 {
-    height: 50vh;
-    width: 40vw;
-    position: absolute;
-    top: 35vh;
-    left: 30vw;
     display: grid;
-    grid-template-columns: 20vw 20vw;
-    grid-template-rows: 10vh 10vh;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin-top: 20px;
+    width: 60%;
+    margin-left: 20%;
 }
 
 .formele {
-    height: 6vh;
-    width: 18vw;
-    font-size: 3vh;
+    height: 40px;
+    width: 80%;
+    font-size: 1em;
     border: none;
     outline: none;
-    border-radius: 10vh;
-    text-indent: 2vh;
-    background-color: aliceblue;
-    border: 1px solid #000;
-    margin-left: 2vh;
+    border-radius: 40px;
+    padding: 5px;
+    background-color: #fff;
+    color: #000;
+    text-indent: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-left: 10%;
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    padding: 0;
+    outline: none;
 }
 
 #butt {
-    height: 6vh;
-    width: 18vw;
-    font-size: 3vh;
-    border-radius: 10vh;
-    position: absolute;
-    top: 65vh;
-    left: 41vw;
-    background-color: aliceblue;
-    border: 1px solid #000;
+    height: 50px;
+    width: 200px;
+    font-size: 1.5em;
+    border-radius: 25px;
+    margin-top: 20px;
+    background-color: #fda085;
     border: none;
     outline: none;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 #butt:hover {
-    background-color: #dde5ec;
+    background-color: #f6d365;
 }
 
 #output {
-    background-color: azure;
-    min-height: 10vh;
-    height: 100% auto;
-    width: 40vw;
-    position: absolute;
-    top: 79vh;
-    left: 30vw;
+    background-color: #fff;
+    min-height: 50px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 20px;
+    color: #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 span {
-    height: 4vh;
-    width: 40vw;
-    position: absolute;
-    top: 75vh;
-    left: 30vw;
-    background-color: floralwhite;
-    font-size: 3vh;
-    color: #000;
-    text-indent: 2vh;
-    user-select: none;
+    display: block;
+    margin-top: 20px;
+    font-size: 1.5em;
 }
 
 .grp_word {
     display: flex;
     flex-wrap: wrap;
-    position: relative;
+    justify-content: center;
 }
 
 .word_out {
-    padding: 1vh;
-    background-color: burlywood;
-    margin: 1vh;
-    border-radius: 1vh;
-    color: #000;
-}
-
-#space {
-    height: 5vh;
-    width: 100%;
+    background-color: #fda085;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
 }
 
 #foot {
-    height: 4vh;
-    width: 100%;
-    background-color: burlywood;
-    text-align: center;
-    font-size: 3vh;
-    position: fixed;
-    bottom: 0;
-    left: 0;
+    margin-top: 20px;
+    font-size: 1em;
 }
