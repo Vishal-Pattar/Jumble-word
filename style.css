@@ -100,7 +100,7 @@ body::-webkit-scrollbar {
 #output {
     background-color: #fff;
     min-height: 50px;
-    width: 80%;
+    width: 60%;
     margin: 20px auto;
     border-radius: 10px;
     padding: 20px;
@@ -129,6 +129,6 @@ span {
 }
 
 #foot {
-    margin-top: 20px;
+    margin-bottom: 40px;
     font-size: 1em;
 }
